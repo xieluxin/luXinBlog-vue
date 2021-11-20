@@ -1,0 +1,46 @@
+let nav = [
+  {
+    id:1,
+    name:"spring"
+  },
+  {
+    id:2,
+    name:"mybatis"
+  },
+  {
+    id:3,
+    name:"前端",
+    children:[
+      {
+        id:4,
+        name:"vue"
+      },
+      {
+        id:5,
+        name:"css特效"
+      },
+      {
+        id:6,
+        name:"jquery"
+      },
+      {
+        id:7,
+        name:"js特效"
+      },
+    ]
+  },
+  {
+    id:8,
+    name:"java基础"
+  },
+  {
+    id:9,
+    name:"博客简介",
+    single:true
+  },
+  {
+    id:10,
+    name:"后台管理",
+  }
+];
+export default nav
